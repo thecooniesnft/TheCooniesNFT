@@ -83,7 +83,7 @@
   dependencies:
     "@resolver-engine/imports" "^0.3.3"
     "@resolver-engine/imports-fs" "^0.3.3"
-    "@typechain/ethers-v5" "^2.0.0"
+    "@typechainx/ethers-v5" "^2.0.0"
     "@types/mkdirp" "^0.5.2"
     "@types/node-fetch" "^2.5.5"
     ethers "^5.0.1"
@@ -91,7 +91,7 @@
     node-fetch "^2.6.1"
     solc "^0.6.3"
     ts-generator "^0.1.1"
-    typechain "^3.0.0"
+    typechainx "^3.0.0"
 
 "@ethereum-waffle/ens@^3.4.4":
   version "3.4.4"
@@ -1007,24 +1007,24 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
-"@typechain/ethers-v5@^2.0.0":
+"@typechainx/ethers-v5@^2.0.0":
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@typechain/ethers-v5/-/ethers-v5-2.0.0.tgz#cd3ca1590240d587ca301f4c029b67bfccd08810"
+  resolved "https://registry.yarnpkg.com/@typechainx/ethers-v5/-/ethers-v5-2.0.0.tgz#cd3ca1590240d587ca301f4c029b67bfccd08810"
   integrity sha512-0xdCkyGOzdqh4h5JSf+zoWx85IusEjDcPIwNEHP8mrWSnCae4rvrqB+/gtpdNfX7zjlFlZiMeePn2r63EI3Lrw==
   dependencies:
     ethers "^5.0.2"
 
-"@typechain/ethers-v5@^7.2.0":
+"@typechainx/ethers-v5@^7.2.0":
   version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@typechain/ethers-v5/-/ethers-v5-7.2.0.tgz#d559cffe0efe6bdbc20e644b817f6fa8add5e8f8"
+  resolved "https://registry.yarnpkg.com/@typechainx/ethers-v5/-/ethers-v5-7.2.0.tgz#d559cffe0efe6bdbc20e644b817f6fa8add5e8f8"
   integrity sha512-jfcmlTvaaJjng63QsT49MT6R1HFhtO/TBMWbyzPFSzMmVIqb2tL6prnKBs4ZJrSvmgIXWy+ttSjpaxCTq8D/Tw==
   dependencies:
     lodash "^4.17.15"
     ts-essentials "^7.0.1"
 
-"@typechain/hardhat@^2.3.1":
+"@typechainx/hardhat@^2.3.1":
   version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@typechain/hardhat/-/hardhat-2.3.1.tgz#1e8a6e3795e115a5d5348526282b5c597fab0b78"
+  resolved "https://registry.yarnpkg.com/@typechainx/hardhat/-/hardhat-2.3.1.tgz#1e8a6e3795e115a5d5348526282b5c597fab0b78"
   integrity sha512-BQV8OKQi0KAzLXCdsPO0pZBNQQ6ra8A2ucC26uFX/kquRBtJu1yEyWnVSmtr07b5hyRoJRpzUeINLnyqz4/MAw==
   dependencies:
     fs-extra "^9.1.0"
@@ -9486,9 +9486,9 @@ type@^2.7.2:
   resolved "https://registry.yarnpkg.com/type/-/type-2.7.2.tgz#2376a15a3a28b1efa0f5350dcf72d24df6ef98d0"
   integrity sha512-dzlvlNlt6AXU7EBSfpAscydQ7gXB+pPGsPnfJnZpiNJBDj7IaJzQlBZYGdEi4R9HmPdBv2XmWJ6YUtoTa7lmCw==
 
-typechain@^3.0.0:
+typechainx@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.yarnpkg.com/typechain/-/typechain-3.0.0.tgz#d5a47700831f238e43f7429b987b4bb54849b92e"
+  resolved "https://registry.yarnpkg.com/typechainx/-/typechainx-3.0.0.tgz#d5a47700831f238e43f7429b987b4bb54849b92e"
   integrity sha512-ft4KVmiN3zH4JUFu2WJBrwfHeDf772Tt2d8bssDTo/YcckKW2D+OwFrHXRC6hJvO3mHjFQTihoMV6fJOi0Hngg==
   dependencies:
     command-line-args "^4.0.7"
@@ -9499,9 +9499,9 @@ typechain@^3.0.0:
     ts-essentials "^6.0.3"
     ts-generator "^0.1.1"
 
-typechain@^5.2.0:
+typechainx@^5.2.0:
   version "5.2.0"
-  resolved "https://registry.yarnpkg.com/typechain/-/typechain-5.2.0.tgz#10525a44773a34547eb2eed8978cb72c0a39a0f4"
+  resolved "https://registry.yarnpkg.com/typechainx/-/typechainx-5.2.0.tgz#10525a44773a34547eb2eed8978cb72c0a39a0f4"
   integrity sha512-0INirvQ+P+MwJOeMct+WLkUE4zov06QxC96D+i3uGFEHoiSkZN70MKDQsaj8zkL86wQwByJReI2e7fOUwECFuw==
   dependencies:
     "@types/prettier" "^2.1.1"
