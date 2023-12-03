@@ -5,7 +5,7 @@ import { MerkleTree } from 'merkletreejs';
 import keccak256 from 'keccak256';
 import '@nomiclabs/hardhat-etherscan';
 import '@nomiclabs/hardhat-waffle';
-import '@typechainx/hardhat';
+import '@typechain/hardhat';
 import 'hardhat-gas-reporter';
 import 'solidity-coverage';
 import CollectionConfig from './config/CollectionConfig';
@@ -93,7 +93,7 @@ task('rename-contract', 'Renames the smart contract replacing all occurrences in
   console.log(`Contract renamed successfully from "${CollectionConfig.contractName}" to "${taskArgs.newName}"!`);
 
   // Rebuilding types
-  await hre.run('typechainx');
+  await hre.run('typechain');
 })
 .addPositionalParam('newName', 'The new name');
 
