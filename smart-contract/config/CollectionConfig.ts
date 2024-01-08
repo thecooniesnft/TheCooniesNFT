@@ -27,7 +27,7 @@ const CollectionConfig: CollectionConfigInterface = {
     maxMintAmountPerTx: 20,
   },
   contractAddress: "0xcf0bC8E69d9E55b3154063C1aC06043Ccc64E285",
-  marketplaceIdentifier: 'thecooniesnft',
+  marketplaceIdentifier: 'thecoonies-nft',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
